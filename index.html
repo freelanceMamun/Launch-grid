@@ -19,8 +19,8 @@
             <a class="navbar-brand" href="index.html">
               <img src="asset/img/logo.svg" alt="" />
             </a>
-            <button
-              class="navbar-toggler"
+            <a
+              class="navbar-toggler border-0"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -28,10 +28,10 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+              <img src="asset/img/menu.png" alt="" />
+            </a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav me-auto mb-2 ms-5 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#"
                     >Home</a
@@ -44,15 +44,15 @@
                   <a class="nav-link" href="#" role="button"> Team </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">FAQ</a>
+                  <a href="#" class="nav-link">FAQ</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Contact us</a>
+                  <a href="#" class="nav-link">Contact us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link"
+                  <a class="nav-link" href="#"
                     >Pages
-                    <img src="asset/img/Path.svg" alt="" />
+                    <img src="asset/img/Path.svg" alt="#" />
                   </a>
                   <ul class="dropdown-page">
                     <li>
@@ -67,17 +67,18 @@
                   </ul>
                 </li>
               </ul>
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
+              <div class="d-flex align-items-center gap-5">
+                <a href="#">
+                  <img src="asset/img/moon-stars.png" alt="" />
+                </a>
+                <button
+                  class="button-main d-flex align-items-center justify-content-center gap-3"
+                  type="submit"
+                >
+                  <img src="asset/img/shopping-cart.svg" alt="" />
+                  Enroll Now
                 </button>
-              </form>
+              </div>
             </div>
           </div>
         </nav>

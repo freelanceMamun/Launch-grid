@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html {
   font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -23,6 +27,21 @@ html {
   --bg-color-b: #011124;
 
   /* ======= Font-size  */
+}
+
+body {
+  background: linear-gradient(138.18deg, #f4f9fc 0%, #fcfdfe 94.44%);
+}
+
+.button-main {
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid var(--primary-color);
+  width: 17rem;
+  height: 4.8rem;
+  display: block;
+  font-size: 1.7rem;
 }
 
 @media screen and (min-width: 1200px) and (min-width: 1600px) {
@@ -72,3 +91,39 @@ html {
     --text-paragraph: 1.2rem;
   }
 }
+
+/* ===== Drop down Css  */
+
+.dropdown-page {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1;
+  border: 1px solid #e2e2e2;
+  top: 60px;
+  padding: 10px;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  visibility: hidden;
+  transition: 0.2s ease;
+  box-shadow: 0 3px 3px rgba(182, 182, 182, 0.2);
+  border-radius: 4px;
+}
+
+/* ===== Header  ======= */
+.Launch-Grid-header .nav-link {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-color);
+  line-height: 2.2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: block;
+}
+.Launch-Grid-header .nav-link.active {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+/* ==== Header ===== */
