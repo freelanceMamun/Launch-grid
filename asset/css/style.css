@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --primary-color: #3b88c9;
+  --text-color: #4e4e4e;
+  --orange-color: #fe8d2f;
+
+  --bg-blue-gradient: linear-gradient(180deg, #003d7e 0%, #042141 100%);
+  --bg--card-gradient: linear-gradient(
+    180deg,
+    #032244 0%,
+    #003c7c 52.46%,
+    #01346a 100%
+  );
+  --bg-color-b: #011124;
+
+  /* ======= Font-size  */
+}
+
+@media screen and (min-width: 1200px) and (min-width: 1600px) {
+  :root {
+    --text-heading-lg: 4rem;
+    --text-paragraph: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (min-width: 1200px) {
+  :root {
+    --text-heading-lg: 3rem;
+    --text-paragraph: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-width: 991px) {
+  :root {
+    --text-heading-lg: 2.5rem;
+    --text-paragraph: 1.4rem;
+  }
+}
+@media screen and (min-width: 640px) and (min-width: 767px) {
+  :root {
+    --text-heading-lg: 2.3rem;
+    --text-paragraph: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 540px) and (min-width: 639px) {
+  :root {
+    --text-heading-lg: 2.2rem;
+    --text-paragraph: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 425px) and (min-width: 539px) {
+  :root {
+    --text-heading-lg: 2.1rem;
+    --text-paragraph: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 100px) and (min-width: 424px) {
+  :root {
+    --text-heading-lg: 2rem;
+    --text-paragraph: 1.2rem;
+  }
+}
