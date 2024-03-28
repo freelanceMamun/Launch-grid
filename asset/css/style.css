@@ -292,6 +292,9 @@ body {
   );
 }
 
+.services-rows {
+  margin: 10rem 0;
+}
 .services_item {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -324,6 +327,152 @@ body {
   text-align: center;
 }
 
+.title-lg h2 {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 4rem;
+  line-height: 5.7rem;
+  margin-bottom: 1.4rem;
+}
+.discription h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 2.4rem;
+}
+.discription p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 2.4rem;
+}
+
+.services-rows-left .heading-join-button {
+  margin-top: 1.6rem;
+}
+
+.Testimonials-container {
+  margin: 8rem 0;
+  background: var(--bg-blue-gradient);
+
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  background-image: url('../img/bg-bakkground.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.Testimonials-heading {
+  max-width: 60%;
+  margin: 3rem auto;
+}
+.Testimonials-heading .title-lg h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.Testimonials-heading .star {
+  text-align: center;
+}
+.Testimonials-heading .star img {
+  width: 58px;
+}
+.Testimonials-heading h4 {
+  color: #fff;
+  font-family: var(--font-Caveat);
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.testimonial-rows {
+  overflow: hidden;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+}
+
+.testimonial-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0.55%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 2.5rem;
+  height: 356px;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 20px 30px;
+}
+
+.review-user-content {
+  margin-top: 1rem;
+}
+
+.testimonial-icon-shape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-mess p {
+  color: #fff;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  font-weight: 400;
+  margin: 6px 0;
+}
+.user-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.user-content img {
+  width: 7.2rem;
+  height: 7.2rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.user-content h5 {
+  color: #fff;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  font-weight: 600;
+}
+
+.review-user-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial-rows .owl-dots {
+  text-align: center;
+  padding-top: 8rem;
+}
+.owl-nav {
+  display: none;
+}
+.testimonial-rows .owl-dots button {
+  background: #c2c2c2 !important;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  margin-right: 3px;
+  margin-left: 3px;
+  transition: all 0.2s;
+}
+.testimonial-rows .owl-dots button.active {
+  width: 40px;
+  height: 12px;
+  border-radius: 15px;
+  background: #fff !important ;
+}
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   :root {
     --text-heading-lg: 4rem;
@@ -353,6 +502,57 @@ body {
   }
   .Launch-Grid-header .nav-link {
     font-size: var(--text-nav-item);
+  }
+  .heading-content .main-heading {
+    font-size: 5rem;
+    color: var(--primary-color);
+  }
+
+  .heading-content {
+    max-width: 60%;
+  }
+  .heading-content .sb-title {
+    font-size: 2rem;
+    margin-top: 1.4rem;
+  }
+
+  .heading-mid-content .style-title {
+    color: var(--primary-color);
+    font-family: var(--font-Caveat);
+    font-size: 3rem;
+  }
+
+  .heading-join-button .button-main {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 21.9rem;
+    height: 5.5rem;
+  }
+
+  .Features-content .Features-title {
+    font-size: 1.3rem;
+  }
+
+  .Features {
+    max-width: 94%;
+  }
+  .services_item {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .services-inner-box h4 {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+
+  .title-lg h2 {
+    color: var(--primary-color);
+    font-size: 3.5rem;
   }
 }
 
