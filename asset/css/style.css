@@ -38,6 +38,7 @@ html {
 
 body {
   background: linear-gradient(138.18deg, #f4f9fc 0%, #fcfdfe 94.44%);
+  overflow-x: hidden;
 }
 
 .button-main {
@@ -473,6 +474,157 @@ body {
   border-radius: 15px;
   background: #fff !important ;
 }
+.f-content {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+.f-content .style-title {
+  color: var(--orange-color);
+  font-family: var(--font-Caveat);
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+}
+
+.FinancialSuccess .row {
+  margin: auto;
+}
+
+.FinancialSuccess-card {
+  background: linear-gradient(180deg, #032244 0%, #003c7c 52.46%, #01346a 100%);
+  border-radius: 8px;
+  padding: 3rem 2rem;
+}
+.FinancialSuccess-card h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 55px;
+
+  text-align: center;
+  color: #fff;
+}
+.Success-list {
+  margin-top: 2rem;
+}
+.Success-list ul li {
+  list-style: none;
+  display: flex;
+  align-items: start;
+  gap: 8px;
+  margin: 1.6em 0;
+}
+
+.Success-list ul li p {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 35px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.second-contet {
+  margin-top: 4rem;
+}
+
+.second-contet .style-title {
+  margin-bottom: 1rem;
+}
+
+.FinancialSuccess .heading-mid-content .sm-title {
+  margin-top: 4rem !important;
+}
+
+.second-services .row .services-rows-right img {
+  height: max-content;
+  width: 85%;
+}
+
+.second-services .row .services-rows-left {
+  position: relative;
+}
+
+.shape-img {
+  position: absolute;
+  right: -10rem;
+  bottom: -26%;
+}
+
+.third-services .heading-join-button {
+  justify-content: end;
+  margin-top: 1rem;
+}
+
+.third-services .services-rows-left .title-lg h4 {
+  color: #000 !important;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.services-list-content h4 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 700;
+}
+.services-list-content .services-list-item {
+  padding-left: 0;
+}
+.services-list-content .services-list-item li {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: 1rem 0;
+}
+
+.services-list-content .services-list-item li p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 21.94px;
+  text-align: left;
+}
+
+.services-second-content h4 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.services-second-content .services-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.services-second-content .services-list-item li:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.services-second-content .services-list-item li {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  color: #4e4e4e;
+}
+
+.third-services .shape-img {
+  position: absolute;
+  left: -130px;
+  bottom: -213px;
+}
+
+.froth-services {
+  margin-top: 15rem;
+}
+
+.froth-services .shape-img {
+  position: absolute;
+  right: -10rem;
+  bottom: -26%;
+  left: initial;
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   :root {
     --text-heading-lg: 4rem;
