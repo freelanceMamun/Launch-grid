@@ -196,6 +196,9 @@ body {
   justify-content: center;
   border-radius: 8px;
 }
+.heading-join-button .button-main:hover {
+  color: #fff;
+}
 
 .heading-mid-content .sm-title {
   font-weight: 600;
@@ -629,10 +632,16 @@ body {
 }
 .fiveth-services {
   margin-top: 14rem;
-  margin-bottom: 14rem;
+  margin-bottom: 8rem;
 }
 .fiveth-services .services-rows-right {
   margin-top: 6.7rem;
+}
+
+.services-category {
+  background: linear-gradient(180deg, #003d7e 0%, #042141 100%);
+  padding-top: 6rem;
+  padding-bottom: 8rem;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
