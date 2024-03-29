@@ -122,7 +122,7 @@ body {
 
 .heading-content {
   text-align: center;
-  max-width: 58%;
+  max-width: 61%;
   margin: auto;
   position: relative;
 }
@@ -175,7 +175,7 @@ body {
 
 .heading-join-button {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   gap: 0.3rem;
 }
@@ -184,6 +184,7 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   color: var(--text-color);
+  margin-top: 3.6rem;
 }
 .heading-join-button .button-main {
   text-decoration: none;
@@ -615,6 +616,7 @@ body {
   position: absolute;
   left: -130px;
   bottom: -213px;
+  z-index: 1;
 }
 
 .froth-services {
@@ -629,6 +631,7 @@ body {
   right: -10rem;
   bottom: -26%;
   left: initial;
+  z-index: 1;
 }
 .fiveth-services {
   margin-top: 14rem;
@@ -642,27 +645,245 @@ body {
   background: linear-gradient(180deg, #003d7e 0%, #042141 100%);
   padding-top: 6rem;
   padding-bottom: 8rem;
+  background-image: url('../img/LaunchGridverything.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 80%;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
-  :root {
-    --text-heading-lg: 4rem;
-    --text-paragraph: 1.8rem;
-    --text-nav-item: 1.5rem;
-  }
+.service-box {
+  padding: 24px 14px 50px 15px;
+  background: #fff;
+  border-radius: 12px;
+  text-align: center;
+}
+.service-box img {
+  width: 9.6rem;
+  height: 9.6rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.service-box h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: var(--primary-color);
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
 
+.service-box p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.service-box-row {
+  --bs-gutter-y: 1.5rem;
+  margin: 4.8rem 0;
+}
+
+.services-category .join {
+  color: #fff;
+}
+
+.services-category .f-content {
+  max-width: 82%;
+  margin: auto;
+}
+.services-category .f-content .title-lg h2 {
+  color: #fff;
+}
+.services-second-title {
+  margin-bottom: 4.8rem;
+}
+.services-second-title h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 5.7rem;
+  text-align: center;
+}
+
+.right-shape {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  width: max-content;
+}
+
+.map-of-world {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.map-of-world .title-lg {
+  text-align: center;
+}
+.map-of-world .title-lg h4 {
+  font-family: Montserrat;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 29.26px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+
+.map-of-world .title-lg h2 {
+  margin-bottom: 1.6rem;
+}
+
+.style-title {
+  font-family: var(--font-Caveat);
+}
+
+.map-of-world .style-title {
+  color: var(--orange-color);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+
+.map-of-world .map-innner {
+  margin-top: 4.8rem;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.map-discription {
+  max-width: 82%;
+  margin: auto;
+  margin-bottom: 2.4rem;
+}
+
+.map-discription p {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 3.9rem;
+  text-align: center;
+}
+
+.map-of-world .map-innner img {
+  width: 100%;
+}
+
+.map-of-world .sm-title {
+  text-align: center;
+  margin-top: 1.6rem;
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.map-of-world .join {
+  color: var(--primary-color);
+}
+
+/* ===   Faq  ==== */
+.faq_container {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.faq_title h2 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.faq_container .row {
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem;
+}
+
+.faq_content .accordion-item {
+  border: none;
+  background-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.faq_content .accordion-button {
+  font-size: 2rem;
+  color: var(--text-color);
+  font-weight: 600;
+  line-height: 2.4rem;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  justify-content: space-between;
+}
+
+.faq_content .accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+.faq_content .accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.faq_content .accordion-button::after {
+  background: none;
+  display: none;
+}
+
+.faq_sec_title {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+  margin-top: 1.6rem;
+}
+.faq_sec_title span {
+  font-weight: 400;
+}
+
+.faq_container .style-title {
+  text-align: center;
+
+  font-size: 4rem;
+  color: var(--orange-color);
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: center;
+}
+
+.faq_container .heading-join-button {
+  margin-top: 4.8rem;
+}
+
+.faq_container .heading-join-button .join {
+  color: var(--primary-color);
+}
+
+.faq_container .sm-title {
+  text-align: center;
+  color: var(--primary-color);
+  margin-top: 1.4rem;
+  margin-bottom: 3.2rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+/* ===  Faq === */
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
   .Launch-Grid-header .nav-link {
     font-size: var(--text-nav-item);
   }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  :root {
-    --text-heading-lg: 3rem;
-    --text-paragraph: 1.6rem;
-    --text-nav-item: 1.3rem;
-  }
-
   .button-main {
     font-size: 1.5rem;
   }
@@ -755,8 +976,4 @@ body {
 }
 
 @media screen and (min-width: 100px) and (max-width: 424px) {
-  :root {
-    --text-heading-lg: 2rem;
-    --text-paragraph: 1.2rem;
-  }
 }
