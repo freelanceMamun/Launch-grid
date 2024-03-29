@@ -7,6 +7,24 @@ owl.owlCarousel({
   autoplayTimeout: 2000,
   autoplayHoverPause: true,
   nav: false,
+
+  responsive: {
+    1200: {
+      items: 7,
+      nav: false,
+      loop: false,
+    },
+    991: {
+      items: 4,
+      nav: false,
+      loop: false,
+    },
+    767: {
+      items: 3,
+      nav: false,
+      loop: false,
+    },
+  },
 });
 
 $('.owl-slider').owlCarousel({
