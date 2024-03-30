@@ -2,9 +2,9 @@ var owl = $('.owl-carousel');
 owl.owlCarousel({
   items: 7,
   loop: true,
-  margin: 30,
+  margin: 10,
   autoplay: true,
-  autoplayTimeout: 2000,
+
   autoplayHoverPause: true,
   nav: false,
 
@@ -12,7 +12,9 @@ owl.owlCarousel({
     1200: {
       items: 7,
       nav: false,
-      loop: false,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 4000,
     },
     991: {
       items: 4,

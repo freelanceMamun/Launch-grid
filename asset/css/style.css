@@ -212,7 +212,7 @@ body {
 
 .Infiniy-slider {
   background: linear-gradient(90deg, #032549 0%, #013975 100%);
-  padding: 2.5rem 0;
+  padding: 2.5rem 3rem;
 }
 
 .owl-stage {
@@ -882,7 +882,7 @@ body {
 }
 .number-card {
   position: relative;
-  margin-top: 2.7rem;
+  margin-top: 3.8rem;
 }
 .review-img {
   border: 1.4px solid #a0a0a0;
